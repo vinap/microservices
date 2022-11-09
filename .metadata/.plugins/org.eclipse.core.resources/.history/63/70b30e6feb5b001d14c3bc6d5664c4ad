@@ -1,0 +1,5 @@
+package com.vinayak.SpringConfigServer.repository;
+
+public class DepartmentRepository {
+
+}

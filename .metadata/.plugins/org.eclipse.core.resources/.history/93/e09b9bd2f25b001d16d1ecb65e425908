@@ -1,0 +1,5 @@
+package com.vinayak.UserService.controller;
+
+public class UserController {
+
+}

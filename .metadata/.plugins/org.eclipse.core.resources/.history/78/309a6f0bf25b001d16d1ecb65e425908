@@ -1,0 +1,5 @@
+package com.vinayak.UserService.entity;
+
+public class User {
+
+}

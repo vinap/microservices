@@ -1,0 +1,32 @@
+package com.vinayak.UserService.service;
+
+import java.util.Optional;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.vinayak.UserService.entity.User;
+import com.vinayak.UserService.pojo.UserDepartment;
+import com.vinayak.UserService.repository.UserRepository;
+
+@Service
+public class UserService {
+	
+	@Autowired
+	UserRepository repository;
+
+	public User save(User user) {
+		return repository.save(user);
+	}
+
+	public UserDepartment getUserDepartment(Long userId) {
+		  Optional<User> user = repository.findById(userId);
+		  
+		  
+		return null;
+	}
+	
+	
+	
+
+}

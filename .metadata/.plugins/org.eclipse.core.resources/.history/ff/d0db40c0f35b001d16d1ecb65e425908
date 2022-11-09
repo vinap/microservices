@@ -1,0 +1,5 @@
+package com.vinayak.UserService.pojo;
+
+public class UserDepartment {
+
+}

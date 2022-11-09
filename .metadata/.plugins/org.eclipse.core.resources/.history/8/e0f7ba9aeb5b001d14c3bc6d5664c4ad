@@ -1,0 +1,5 @@
+package com.vinayak.SpringConfigServer.service;
+
+public class DepartmentService {
+
+}

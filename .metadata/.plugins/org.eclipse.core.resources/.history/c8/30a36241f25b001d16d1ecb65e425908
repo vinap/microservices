@@ -1,0 +1,5 @@
+package com.vinayak.UserService.repository;
+
+public class UserRepository {
+
+}

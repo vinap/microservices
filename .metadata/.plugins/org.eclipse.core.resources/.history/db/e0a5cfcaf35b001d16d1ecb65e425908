@@ -1,0 +1,8 @@
+package com.vinayak.UserService.pojo;
+
+import com.vinayak.UserService.entity.User;
+
+public class UserDepartment {
+    User user;
+    Department department;
+}

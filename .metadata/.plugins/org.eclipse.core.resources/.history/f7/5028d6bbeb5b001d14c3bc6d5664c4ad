@@ -1,0 +1,5 @@
+package com.vinayak.SpringConfigServer.controller;
+
+public class DepartmentController {
+
+}

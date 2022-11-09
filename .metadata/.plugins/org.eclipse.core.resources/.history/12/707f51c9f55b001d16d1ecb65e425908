@@ -1,0 +1,38 @@
+package com.vinayak.UserService.service;
+
+import java.util.Optional;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+import org.springframework.web.client.RestTemplate;
+
+import com.vinayak.UserService.entity.User;
+import com.vinayak.UserService.pojo.Department;
+import com.vinayak.UserService.pojo.UserDepartment;
+import com.vinayak.UserService.repository.UserRepository;
+
+@Service
+public class UserService {
+	
+	@Autowired
+	UserRepository repository;
+	
+	@Autowired
+	RestTemplate restTemplate;
+
+	public User save(User user) {
+		return repository.save(user);
+	}
+
+	public UserDepartment getUserDepartment(Long userId) {
+		   User user = repository.findUserById(userId);
+		   restTemplate.getForObject("http://localhost:8181/departments/"+user.getDepartmentId(), Department.class);
+		   
+		  
+		return null;
+	}
+	
+	
+	
+
+}

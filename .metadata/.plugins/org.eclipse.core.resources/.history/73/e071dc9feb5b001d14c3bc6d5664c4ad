@@ -1,0 +1,9 @@
+package com.vinayak.SpringConfigServer.repository;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.vinayak.SpringConfigServer.entity.Department;
+
+public interface DepartmentRepository extends JpaRepository<Department, Integer> {
+
+}

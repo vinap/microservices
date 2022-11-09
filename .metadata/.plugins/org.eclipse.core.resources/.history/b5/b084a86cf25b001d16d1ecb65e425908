@@ -1,0 +1,5 @@
+package com.vinayak.UserService.service;
+
+public class UserService {
+
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;SpringConfigServer/repository/limits-service-properties&apos; to &apos;limits-service.properties&apos;" description="Rename resource &apos;limits-service-properties&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="repository/limits-service-properties" name="limits-service.properties" stamp="1667445262330" updateReferences="true"/>
+</session>
